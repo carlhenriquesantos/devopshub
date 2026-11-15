@@ -1,0 +1,50 @@
+.header {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+
+.header .flex {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+    color: var(--font-color);
+}
+
+.logo {
+    display: flex;
+    gap: 12px;
+    font-weight: 800;
+}
+
+.logo .bi-book-half {
+    font-size: 2rem;
+}
+
+.logo .texto-logo {
+    font-size: 2rem;
+}
+
+.logo .texto-logo span {
+    color: var(--tertiary-color);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    color: var(--font-color);
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0 24px 0;
+}
+
+.menu a:not(:last-child) {
+    border-right: 1px solid var(--font-color);
+}
+
+.menu .bi-house {
+    font-size: 1.2rem;
+}
