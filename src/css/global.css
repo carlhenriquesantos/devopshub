@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --primary-color: #071c24;
+    --secondary-color: #A45F42;
+    --tertiary-color: #3695c4;
+    --background-color: #F1EBDD;
+    --font-color: #f1efe9;
+
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+}
+
+h1, h2, h3, a, .header, .book-title {
+  font-family: var(--font-heading);
+}
+
+body, button, input, .book-author {
+  font-family: var(--font-body);
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+a {
+    color: var(--font-color);
+}
