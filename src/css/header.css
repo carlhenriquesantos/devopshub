@@ -48,3 +48,41 @@
 .menu .bi-house {
     font-size: 1.2rem;
 }
+
+@media (max-width: 1024px) {
+
+    .logo .bi-book-half {
+        font-size: 1.5rem;
+    }
+
+    .logo .texto-logo {
+        font-size: 1.5rem;
+    }
+
+    .menu a {
+        font-size: .8rem;
+    }
+
+    .menu .bi-house {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
+    .logo .bi-book-half {
+        font-size: 1rem;
+    }
+
+    .logo .texto-logo {
+        font-size: 1rem;
+    }
+
+    .menu {
+        display: none;
+    }
+}
