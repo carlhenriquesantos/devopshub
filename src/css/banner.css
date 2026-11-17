@@ -37,12 +37,24 @@
 .label-banner {
     font-size: 1.5rem;
     color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.label-banner::after {
+    content: "";
+    display: block;
+    width: 400px;
+    height: 3px;
+    background: linear-gradient(to right, var(--secondary-color), transparent);
 }
 
 .titulo-banner {
     font-size: 4rem;
     color: var(--font-color);
     text-shadow: 0 3px 10px rgba(0, 28, 36, 1);
+    font-weight: 900;
 }
 
 .titulo-banner span {
@@ -94,6 +106,12 @@
 .box-icone .bi {
     color: var(--background-color);
     font-size: 2rem;
+    transition: ease .3s;
+}
+
+.box-icone .bi:hover {
+    color: var(--secondary-color);
+    cursor: pointer;
 }
 
 .box-icone .texto-icone {

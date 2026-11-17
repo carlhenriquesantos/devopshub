@@ -12,65 +12,195 @@
     <link rel="stylesheet" href="src/css/global.css">
     <link rel="stylesheet" href="src/css/header.css">
     <link rel="stylesheet" href="src/css/banner.css">
+    <link rel="stylesheet" href="src/css/lib.css">
     <title>DevOps Hub</title>
 </head>
 <body>
     <header class="header">
-        <div class="flex">
+        <nav class="flex">
             <div class="logo">
                 <i class="bi bi-book-half"></i>
                 <p class="texto-logo">DevOps <span>Hub</span></p>
             </div>
             <div class="menu">
                 <a href="#"><i class="bi bi-house"></i></a>
-                <a class="item-central" href="#">Aprender</a>
+                <a class="item-central" href="#">Sobre</a>
                 <a href="#">Biblioteca</a>
             </div>
-        </div>
+        </nav>
     </header>
 
-    <section class="banner">
-        <div class="sombra"></div>
-
-        <img class="img-banner" src="src/img/banner.png" alt="">
+    <main class="main">
         
-        <div class="elementos-banner">
+        <section class="banner">
+            <div class="sombra"></div>
+    
+            <img class="img-banner" src="src/img/banner.png" alt="">
             
-            <span class="label-banner">DEVOPS HUB</span>
-            <h1 class="titulo-banner">A tecnologia <span>evoluiu.</span><br> <span>Seu conhecimento </span>também.</h1>
-            
-            <p class="subtitulo-banner">Livros, artigos e guias práticos sobre DevOps, Cloud, Redes e muito mais. Aprenda, explore e evolua com conteúdos selecionados para impulsionar sua jornada na tecnologia moderna.</p>
-            
-            <a href="#" class="botao-banner">Explore a Biblioteca <i class="bi bi-arrow-right"></i></a>
-            
-            <div class="icones-banner">
-                <div class="box-icone">
-                    <i class="bi bi-infinity"></i>
-                    <p class="texto-icone">DevOps</p>
-                </div>
-                <div class="box-icone">
-                    <i class="bi bi-cloudy"></i>
-                    <p class="texto-icone">Cloud</p>
-                </div>
-                <div class="box-icone">
-                    <i class="bi bi-terminal"></i>
-                    <p class="texto-icone">Terminal</p>
-                </div>
-                <div class="box-icone">
-                    <i class="bi bi-router"></i>
-                    <p class="texto-icone">Redes</p>
-                </div>
-                <div class="box-icone">
-                    <i class="bi bi-shield-check"></i>
-                    <p class="texto-icone">Segurança</p>
-                </div>
-                <div class="box-icone">
-                    <i class="bi bi-tux"></i>
-                    <p class="texto-icone">Linux</p>
+            <div class="elementos-banner">
+                
+                <span class="label-banner">DEVOPS HUB</span>
+                <h1 class="titulo-banner">A tecnologia <span>evoluiu.</span><br> <span>Seu conhecimento </span>também.</h1>
+                
+                <p class="subtitulo-banner">Livros, artigos e guias práticos sobre DevOps, Cloud, Redes e muito mais. Aprenda, explore e evolua com conteúdos selecionados para impulsionar sua jornada na tecnologia moderna.</p>
+                
+                <a href="#" class="botao-banner">Explore a Biblioteca <i class="bi bi-arrow-right"></i></a>
+                
+                <div class="icones-banner">
+                    <div class="box-icone">
+                        <i class="bi bi-infinity"></i>
+                        <p class="texto-icone">DevOps</p>
+                    </div>
+                    <div class="box-icone">
+                        <i class="bi bi-cloudy"></i>
+                        <p class="texto-icone">Cloud</p>
+                    </div>
+                    <div class="box-icone">
+                        <i class="bi bi-terminal"></i>
+                        <p class="texto-icone">Terminal</p>
+                    </div>
+                    <div class="box-icone">
+                        <i class="bi bi-router"></i>
+                        <p class="texto-icone">Redes</p>
+                    </div>
+                    <div class="box-icone">
+                        <i class="bi bi-shield-check"></i>
+                        <p class="texto-icone">Segurança</p>
+                    </div>
+                    <div class="box-icone">
+                        <i class="bi bi-tux"></i>
+                        <p class="texto-icone">Linux</p>
+                    </div>
                 </div>
             </div>
-        </div>
+    
+        </section>
 
-    </section>
+        <section class="lib">
+            <header class="header-lib">
+                <span class="label-lib">ACERVO DIGITAL</span>
+                <div class="header-lib-container">
+                    <div class="box-titulo-lib">
+                        <h2 class="titulo-lib">Biblioteca Torvalds</h2>
+                        <p class="subtitulo-lib">Torne-se um desenvolvedor de software moderno.</p>
+                    </div>
+                    <div class="search-box">
+                        <i class="bi bi-search"></i>
+                        <input class="search-lib" type="search" name="search" id="search" placeholder="Buscar livro ou autor.." aria-label="Buscar livro ou autor..">
+                    </div>
+                </div>
+            </header>
+
+            <section class="categoria autorais">
+                <header class="header-categoria">
+                    <h3 class="titulo-categoria">
+                        Autoral
+                    </h3>
+                    <span class="numero-livros">2 títulos</span>
+                </header>
+                <ul class="grid-livros">           
+                    <li>
+                        <article class="card-livro">
+                            <a href="" class="capa-livro">
+                                <img src="src/img/livros/vscode-eficiente.jpg" alt="">
+                            </a>
+                            <h4 class="titulo-livro">Mais Eficiente com VS Code</h4>
+                            <p class="autor-livro">Carlos H. Santos</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="card-livro">
+                            <a href="" class="capa-livro">
+                                <img src="src/img/livros/devops-aplicado.jpg" alt="">
+                            </a>
+                            <h4 class="titulo-livro">DevOps Aplicado</h4>
+                            <p class="autor-livro">Carlos H. Santos</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="card-livro">
+                            <a href="" class="capa-livro">
+                                <img src="src/img/livros/devops-aplicado2.jpg" alt="">
+                            </a>
+                            <h4 class="titulo-livro">DevOps Aplicado</h4>
+                            <p class="autor-livro">Carlos H. Santos</p>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="categoria autorais">
+                <header class="header-categoria">
+                    <h3 class="titulo-categoria">
+                        DevOps
+                    </h3>
+                    <span class="numero-livros">4 título</span>
+                </header>
+                <ul class="grid-livros">           
+                    <li>
+                        <article class="card-livro">
+                            <a href="" class="capa-livro">
+                                <img src="src/img/livros/linux2.png" alt="">
+                            </a>
+                            <h4 class="titulo-livro">Linux Eficiente na Linha de Comando</h4>
+                            <p class="autor-livro">Daniel J. Barrett</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="card-livro">
+                            <a href="" class="capa-livro">
+                                <img src="src/img/livros/shellscript.png" alt="">
+                            </a>
+                            <h4 class="titulo-livro">Shell Script Profissional</h4>
+                            <p class="autor-livro">Aurério Marinho Jargas</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="card-livro">
+                            <a href="" class="capa-livro">
+                                <img src="src/img/livros/docker.png" alt="">
+                            </a>
+                            <h4 class="titulo-livro">Containers com Docker</h4>
+                            <p class="autor-livro">Daniel Romero</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="card-livro">
+                            <a href="" class="capa-livro">
+                                <img src="src/img/livros/kubernetes.png" alt="">
+                            </a>
+                            <h4 class="titulo-livro">Kubernetes</h4>
+                            <p class="autor-livro">Lucas Santos</p>
+                        </article>
+                    </li>
+
+                </ul>
+            </section>
+
+            <section class="categoria autorais">
+                <header class="header-categoria">
+                    <h3 class="titulo-categoria">
+                        Inteligência Artificial
+                    </h3>
+                    <span class="numero-livros">1 título</span>
+                </header>
+                <ul class="grid-livros">
+                    <li>
+                        <article class="card-livro">
+                            <a href="" class="capa-livro">
+                                <img src="src/img/livros/akita.png" alt="">
+                            </a>
+                            <h4 class="titulo-livro">Competente o suficiente</h4>
+                            <p class="autor-livro">Fábio Akita</p>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+        </section>
+
+    </main>
+
+
+    
 </body>
 </html>
