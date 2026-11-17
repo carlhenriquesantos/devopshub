@@ -39,6 +39,11 @@
     font-weight: 500;
     font-size: 1rem;
     padding: 0 24px 0;
+    transition: ease .3s;
+}
+
+.menu a:hover {
+    color: var(--secondary-color);
 }
 
 .menu a:not(:last-child) {
