@@ -17,7 +17,7 @@
     --font-body: 'Inter', sans-serif;
 }
 
-h1, h2, h3, a, .header, .book-title {
+h1, h2, h3, a, .header {
   font-family: var(--font-heading);
 }
 
